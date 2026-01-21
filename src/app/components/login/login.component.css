@@ -3,26 +3,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  background: linear-gradient(195deg, #3774b2, #f0eef0);
 }
 
 .login-card {
-  width: 360px;
-  padding: 32px;
-  border-radius: 22px;
-  background: white;
+  width: 600px;
+  padding: 40px;
+  border-radius: 40px;
+  background: rgb(239, 240, 239);
   box-shadow: 0 30px 60px rgba(0,0,0,0.2);
   text-align: center;
+  height: 750px;
+}
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #1e293b;
 }
 
 .login-card h2 {
   margin-bottom: 6px;
-  color: #1e293b;
+  color: #0a0b0b;
 }
 
 .login-card p {
   margin-bottom: 24px;
-  color: #64748b;
+  color: #040505;
 }
 
 input {
@@ -42,6 +50,8 @@ button {
   color: white;
   font-weight: bold;
   cursor: pointer;
+  margin:30px 0 40px 0;
+
 }
 
 button:hover {
@@ -53,8 +63,28 @@ button:hover {
   margin-top: 10px;
 }
 
-small {
+.demo-credentials {
+  margin-top: 40px;
+  padding: 12px 16px;
+  background: #f1f8ff;
+  border-left: 4px solid #1d4ed8;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #1e3a8a;
+}
+
+.demo-credentials strong {
   display: block;
-  margin-top: 14px;
-  color: #64748b;
+  margin-bottom: 6px;
+  font-size: 15px;
+
+}
+
+.demo-credentials p {
+  margin: 4px 0;
+}
+
+.demo-credentials span {
+  font-weight: bold;
+  color: #0f172a;
 }
