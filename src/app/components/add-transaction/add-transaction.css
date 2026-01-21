@@ -1,0 +1,138 @@
+/* =========================
+   PAGE BACKGROUND
+========================= */
+.form-wrapper {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #eef2f7, #dbeafe);
+  padding: 30px;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: #e2d8d8d9;
+  padding: 32px;
+  border-radius: 22px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   HEADING
+========================= */
+.card h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1e293b;
+  font-size: 26px;
+}
+
+/* =========================
+   FORM LABELS
+========================= */
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #25569a;
+}
+
+/* =========================
+   INPUTS & SELECT
+========================= */
+input,
+select,
+textarea {
+  margin-top: 6px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  font-size: 20px;
+  transition: all 0.25s ease;
+  outline: olive;
+  background: #e4e5e6;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #6366f1;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* =========================
+   TEXTAREA
+========================= */
+textarea {
+  resize: none;
+}
+
+/* =========================
+   BUTTON
+========================= */
+button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 14px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 16px 32px rgba(202, 35, 35, 0.214);
+}
+
+button:active {
+  transform: translateY(-5px);
+}
+
+/* =========================
+   ERROR STATE (OPTIONAL)
+========================= */
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 480px) {
+  .card {
+    padding: 24px;
+  }
+
+  .card h2 {
+    font-size: 22px;
+  }
+}

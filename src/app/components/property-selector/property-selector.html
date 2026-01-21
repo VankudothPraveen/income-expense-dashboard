@@ -1,0 +1,12 @@
+<div class="property-selector">
+  <span class="label">Property:</span>
+
+  <div class="options">
+    <button
+      *ngFor="let p of properties"
+      (click)="select(p)"
+      [class.active]="p.id === selectedId">
+      {{ p.name }}
+    </button>
+  </div>
+</div>

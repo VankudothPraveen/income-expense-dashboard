@@ -1,0 +1,34 @@
+<header class="navbar">
+  <div class="brand">🌿 <span>XYZ Farm Finance</span></div>
+
+  <nav class="nav-links">
+    <a routerLink="/dashboard" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Dashboard
+    </a>
+  
+
+<a routerLink="/income-dashboard" routerLinkActive="active">
+    Income Dashboard
+  </a>
+
+  <a routerLink="/expense-dashboard" routerLinkActive="active">
+    Expense Dashboard
+  </a>
+
+
+    <a routerLink="/transactions/earthy" routerLinkActive="active" (click)="selectProperty(1)">
+      Earthy Escape Transactions
+    </a>
+
+    <a routerLink="/transactions/millennium" routerLinkActive="active" (click)="selectProperty(2)">
+      Millennium Farm House Transactions
+    </a>
+
+    <a routerLink="/add" routerLinkActive="active">Add</a>
+    <button class="logout-btn" (click)="logout()">
+      Logout
+    </button>
+    
+  </nav>
+  
+</header>

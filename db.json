@@ -1,0 +1,176 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "name": "Earthy Escape"
+    },
+    {
+      "id": "2",
+      "name": "Millennium Farm House"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 25000,
+      "category": "Weekend Booking",
+      "date": "2026-01-05",
+      "description": "2-day weekend stay booking"
+    },
+    {
+      "id": "2",
+      "type": "expense",
+      "propertyId": 1,
+      "amount": 5000,
+      "category": "Maintenance",
+      "date": "2026-01-07",
+      "description": "Garden cleaning and repairs"
+    },
+    {
+      "id": "3",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 18000,
+      "category": "Corporate Stay",
+      "date": "2026-01-10",
+      "description": "Corporate team outing"
+    },
+    {
+      "id": "4",
+      "type": "expense",
+      "propertyId": 1,
+      "amount": 3000,
+      "category": "Electricity",
+      "date": "2026-01-12",
+      "description": "Monthly electricity bill"
+    },
+    {
+      "id": "6",
+      "type": "expense",
+      "propertyId": 2,
+      "amount": 8000,
+      "category": "Decoration",
+      "date": "2026-01-09",
+      "description": "Event decorations"
+    },
+    {
+      "id": "7",
+      "type": "income",
+      "propertyId": 2,
+      "amount": 22000,
+      "category": "Birthday Party",
+      "date": "2026-01-15",
+      "description": "Birthday celebration booking"
+    },
+    {
+      "id": "8",
+      "type": "expense",
+      "propertyId": 2,
+      "amount": 4000,
+      "category": "Staff Salary",
+      "date": "2026-01-18",
+      "description": "Support staff payment"
+    },
+    {
+      "id": "9",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 30000,
+      "category": "New Year Booking",
+      "date": "2025-12-31",
+      "description": "New Year Eve celebration"
+    },
+    {
+      "id": "10",
+      "type": "expense",
+      "propertyId": 2,
+      "amount": 6000,
+      "category": "Water Supply",
+      "date": "2026-01-20",
+      "description": "Water tanker charges"
+    },
+    {
+      "id": "b8b4",
+      "type": "income",
+      "propertyId": "2",
+      "amount": 1000,
+      "category": "electrircity",
+      "date": "2026-01-20",
+      "description": "fnak hf"
+    },
+    {
+      "id": "c479",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 12000,
+      "category": "electricity",
+      "date": "2025-12-31",
+      "description": "jdi auefwhw"
+    },
+    {
+      "id": "f68e",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 12000,
+      "category": "electricity",
+      "date": "2025-12-31",
+      "description": "jdi auefwhw"
+    },
+    {
+      "id": "b7fc",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 12000,
+      "category": "electricity",
+      "date": "2025-12-31",
+      "description": "jdi auefwhw"
+    },
+    {
+      "id": "ec5d",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 12000,
+      "category": "electricity",
+      "date": "2025-12-31",
+      "description": "jdi auefwhw"
+    },
+    {
+      "id": "1940",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 12000,
+      "category": "electricity",
+      "date": "2025-12-31",
+      "description": "jdi auefwhw"
+    },
+    {
+      "id": "d998",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 12000,
+      "category": "electricity",
+      "date": "2025-12-31",
+      "description": "jdi auefwhw"
+    },
+    {
+      "id": "9cfc",
+      "type": "expense",
+      "propertyId": 1,
+      "amount": 15000,
+      "category": "repair",
+      "date": "2026-01-08",
+      "description": "only for farmhouse repair"
+    },
+    {
+      "id": "2fcd",
+      "type": "income",
+      "propertyId": 1,
+      "amount": 40000,
+      "category": "food",
+      "date": "2026-01-14",
+      "description": ""
+    }
+  ]
+}

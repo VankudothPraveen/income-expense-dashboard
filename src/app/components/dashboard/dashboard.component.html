@@ -1,0 +1,71 @@
+<div class="dashboard-container">
+
+  <!-- SUMMARY CARDS -->
+  <section class="summary-grid">
+    <div class="summary-card income">
+      <span>Total Income</span>
+      <div><strong>₹ {{ totalIncome }}</strong></div>
+    </div>
+
+    <div class="summary-card expense">
+      <span>Total Expense</span>
+      <div><strong>₹ {{ totalExpense }}</strong></div>
+    </div>
+
+    <div class="summary-card profit">
+      <span>Net Profit</span>
+      <div><strong>₹ {{ netProfit }}</strong></div>
+    </div>
+
+    <div class="summary-card best">
+      <span>Best Property</span>
+      <div><strong>{{ bestProperty }}</strong></div>
+    </div>
+  </section>
+
+  <!-- CHARTS -->
+  <section class="charts-grid">
+    <div class="chart-card">
+      <h4>Income vs Expense</h4>
+      <canvas id="incomeExpenseBar"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h4>Expense Distribution</h4>
+      <canvas id="expensePie"></canvas>
+    </div>
+
+    <div class="chart-card">
+      <h4>Property Profit Comparison</h4>
+      <canvas id="profitCompare"></canvas>
+    </div>
+  </section>
+
+  <!-- TABLES -->
+  <section class="tables-grid">
+    <div class="table-card">
+      <h4>Earthy Escape – Latest</h4>
+      <table>
+        <tr><th>Date</th><th>Type</th><th>Amount</th></tr>
+        <tr *ngFor="let t of earthyLatest">
+          <td>{{ t.date }}</td>
+          <td>{{ t.type }}</td>
+          <td>₹ {{ t.amount }}</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="table-card">
+      <h4>Millennium Farm House – Latest</h4>
+      <table>
+        <tr><th>Date</th><th>Type</th><th>Amount</th></tr>
+        <tr *ngFor="let t of millenniumLatest">
+          <td>{{ t.date }}</td>
+          <td>{{ t.type }}</td>
+          <td>₹ {{ t.amount }}</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+</div>

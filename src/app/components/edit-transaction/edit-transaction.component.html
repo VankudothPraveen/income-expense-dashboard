@@ -1,0 +1,38 @@
+<div *ngIf="!loading" class="edit-container">
+  <h2>Edit Transaction</h2>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <label>
+      Property
+      <select formControlName="propertyId">
+        <option [value]="1">Earthy Escape</option>
+        <option [value]="2">Millennium Farm House</option>
+      </select>
+    </label>
+
+    <label>
+      Type
+      <select formControlName="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+    </label>
+
+    <label>
+      Category
+      <input type="text" formControlName="category" />
+    </label>
+
+    <label>
+      Amount
+      <input type="number" formControlName="amount" />
+    </label>
+
+    <label>
+      Date
+      <input type="date" formControlName="date" />
+    </label>
+
+    <button type="submit">Update</button>
+  </form>
+</div>

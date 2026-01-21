@@ -1,0 +1,94 @@
+.title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* ===== TABLE ===== */
+
+.table-wrapper {
+  background: #8ba08020;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #398a8c;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 30px;
+}
+
+th {
+  font-weight: 600;
+  color: #374151;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:hover {
+  background: #f9fafb;
+}
+
+/* ===== TYPE BADGE ===== */
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.badge.income {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge.expense {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* ===== ACTIONS ===== */
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.actions a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ===== EMPTY STATE ===== */
+
+.empty {
+  margin-top: 40px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 16px;
+}

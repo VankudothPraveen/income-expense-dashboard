@@ -1,0 +1,18 @@
+<div class="login-wrapper">
+  <form class="login-card" [formGroup]="form" (ngSubmit)="login()">
+
+    <h2>XYZ Company</h2>
+    <p>Farmhouse Finance System</p>
+
+    <input type="text" placeholder="Username" formControlName="username" />
+    <input type="password" placeholder="Password" formControlName="password" />
+
+    <button type="submit">Login</button>
+
+    <div class="error" *ngIf="error">{{ error }}</div>
+
+    <small>Demo: admin / admin123</small>
+
+  </form>
+</div>
+

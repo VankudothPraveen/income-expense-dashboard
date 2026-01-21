@@ -1,0 +1,51 @@
+<h2>Expense Dashboard</h2>
+
+<!-- SUMMARY -->
+<div class="summary-grid">
+  <div class="card expense">
+    Total Expense
+    <strong>₹ {{ totalExpense }}</strong>
+  </div>
+
+  <div class="card earthy">
+    Earthy Escape
+    <strong>₹ {{ earthyExpense }}</strong>
+  </div>
+
+  <div class="card millennium">
+    Millennium Farm House
+    <strong>₹ {{ millenniumExpense }}</strong>
+  </div>
+</div>
+
+<!-- CHART -->
+<div class="chart-card">
+  <canvas id="expenseChart"></canvas>
+</div>
+
+<!-- TRANSACTION TABLE -->
+<div class="table-card">
+  <h3>Latest Expense Transactions</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Property</th>
+        <th>Category</th>
+        <th>Amount (₹)</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let tx of expenseTransactions">
+        <td>{{ tx.date }}</td>
+        <td>
+          {{ tx.propertyId === 1 ? 'Earthy Escape' : 'Millennium Farm House' }}
+        </td>
+        <td>{{ tx.category }}</td>
+        <td>{{ tx.amount }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
