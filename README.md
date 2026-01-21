@@ -25,7 +25,9 @@ This system provides **real-time financial insights**, **property-wise compariso
 - Categorized transactions (Booking, Maintenance, Utilities, etc.)
 - Property-specific transaction views
 - Latest transactions displayed on dashboards
+  
 ---
+
 ### 📊 Dashboards
 - **Main Dashboard**
   - Total Income
@@ -69,27 +71,42 @@ This system provides **real-time financial insights**, **property-wise compariso
 <img width="255" height="272" alt="image" src="https://github.com/user-attachments/assets/36bfcbdf-20d1-476d-a9ec-be05f7ae6d97" />
 
 ---
+
 ## Main Dashboard and charts:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ed8caf6-186a-488b-8ff3-e9ba167bc2cf" />
+
 ---
+
 ## Income Dashboard and charts:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ca8c2b2f-85c9-4f1f-8247-905260b2738f" />
+
 ---
-## Expenxe Dashboard and charts:
+
+## Expenxe Dashboard and charts
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/152d918b-8b3f-4025-9956-483a39da7f80" />
+
 ---
-## Earthy escape Transactions:
+
+## Earthy escape Transactions
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e51eea1c-2ca5-4644-b8a8-b88e253e6f4e" />
+
 ---
-### Millineium Farm house Transactions:
+
+### Millineium Farm house Transactions
 <img width="960" height="388" alt="image" src="https://github.com/user-attachments/assets/d7269203-1f92-440d-87ee-bd351bd13b51" />
+
 ---
-### Add custom Transactions:
+
+### Add custom Transactions
 <img width="947" height="448" alt="image" src="https://github.com/user-attachments/assets/c878eafc-7691-4cdd-beaa-9fa3b1128218" />
+
 ---
+
 ### Login form and authentication:
 <img width="882" height="425" alt="image" src="https://github.com/user-attachments/assets/c9d2b0a0-241a-47e5-99df-27460216a3b8" />
+
 ---
+
 ### Logout button at top right:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1b019823-48c9-43c5-a1d5-22e4b1661fa2" />
 
