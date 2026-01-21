@@ -65,28 +65,9 @@ This system provides **real-time financial insights**, **property-wise compariso
 ---
 
 ## 📁 Project Structure
+---
+<img width="255" height="272" alt="image" src="https://github.com/user-attachments/assets/36bfcbdf-20d1-476d-a9ec-be05f7ae6d97" />
 
-```text
-src/
-├── app/
-│   ├── components/
-│   │   ├── dashboard/
-│   │   ├── income-dashboard/
-│   │   ├── expense-dashboard/
-│   │   ├── transactions/
-│   │   ├── reports/
-│   │   ├── login/
-│   │   └── navbar/
-│   ├── services/
-│   │   ├── auth.service.ts
-│   │   ├── transaction.service.ts
-│   │   └── property.service.ts
-│   ├── guards/
-│   │   └── auth.guard.ts
-│   ├── models/
-│   └── app.routes.ts
-├── assets/
-└── db.json
 ---
 ##main Dashboard and charts:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5ed8caf6-186a-488b-8ff3-e9ba167bc2cf" />
